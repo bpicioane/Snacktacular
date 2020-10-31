@@ -13,7 +13,7 @@
 		3162BB09254C8FFF0072D8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3162BB07254C8FFF0072D8EF /* Main.storyboard */; };
 		3162BB0B254C90040072D8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3162BB0A254C90040072D8EF /* Assets.xcassets */; };
 		3162BB0E254C90040072D8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3162BB0C254C90040072D8EF /* LaunchScreen.storyboard */; };
-		319B6C75254DFFDE00A2B698 /* SpotsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C74254DFFDE00A2B698 /* SpotsListViewController.swift */; };
+		319B6C75254DFFDE00A2B698 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C74254DFFDE00A2B698 /* SpotListViewController.swift */; };
 		319B6C77254E022100A2B698 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C76254E022100A2B698 /* SpotTableViewCell.swift */; };
 		319B6C79254E080D00A2B698 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C78254E080D00A2B698 /* SpotDetailViewController.swift */; };
 		31CE15E7254C92BC00386F62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31CE15E6254C92BC00386F62 /* GoogleService-Info.plist */; };
@@ -29,7 +29,7 @@
 		3162BB0A254C90040072D8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3162BB0D254C90040072D8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3162BB0F254C90040072D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		319B6C74254DFFDE00A2B698 /* SpotsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsListViewController.swift; sourceTree = "<group>"; };
+		319B6C74254DFFDE00A2B698 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
 		319B6C76254E022100A2B698 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
 		319B6C78254E080D00A2B698 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		31CE15E6254C92BC00386F62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				3162BB01254C8FFF0072D8EF /* AppDelegate.swift */,
 				3162BB03254C8FFF0072D8EF /* SceneDelegate.swift */,
 				3162BB05254C8FFF0072D8EF /* LoginViewController.swift */,
-				319B6C74254DFFDE00A2B698 /* SpotsListViewController.swift */,
+				319B6C74254DFFDE00A2B698 /* SpotListViewController.swift */,
 				319B6C78254E080D00A2B698 /* SpotDetailViewController.swift */,
 				319B6C76254E022100A2B698 /* SpotTableViewCell.swift */,
 				3162BB07254C8FFF0072D8EF /* Main.storyboard */,
@@ -237,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319B6C75254DFFDE00A2B698 /* SpotsListViewController.swift in Sources */,
+				319B6C75254DFFDE00A2B698 /* SpotListViewController.swift in Sources */,
 				3162BB06254C8FFF0072D8EF /* LoginViewController.swift in Sources */,
 				3162BB02254C8FFF0072D8EF /* AppDelegate.swift in Sources */,
 				319B6C79254E080D00A2B698 /* SpotDetailViewController.swift in Sources */,
