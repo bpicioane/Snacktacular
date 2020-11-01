@@ -16,7 +16,8 @@
 		319B6C75254DFFDE00A2B698 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C74254DFFDE00A2B698 /* SpotListViewController.swift */; };
 		319B6C77254E022100A2B698 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C76254E022100A2B698 /* SpotTableViewCell.swift */; };
 		319B6C79254E080D00A2B698 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C78254E080D00A2B698 /* SpotDetailViewController.swift */; };
-		31CE15E7254C92BC00386F62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31CE15E6254C92BC00386F62 /* GoogleService-Info.plist */; };
+		319B6C7B254E4F1900A2B698 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B6C7A254E4F1900A2B698 /* Spot.swift */; };
+		319B6C7D254E5A2000A2B698 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 319B6C7C254E5A2000A2B698 /* GoogleService-Info.plist */; };
 		FB6D166481E1D6157021BCB4 /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDA22CAB7E18D7FBA268B73 /* Pods_Snacktacular.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +33,8 @@
 		319B6C74254DFFDE00A2B698 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
 		319B6C76254E022100A2B698 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
 		319B6C78254E080D00A2B698 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
-		31CE15E6254C92BC00386F62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		319B6C7A254E4F1900A2B698 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		319B6C7C254E5A2000A2B698 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FDA22CAB7E18D7FBA268B73 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE83E803CCBCDCB6C5D5B85 /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
 		F1FEAC1C6FBDB7D566112FEE /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				3162BB01254C8FFF0072D8EF /* AppDelegate.swift */,
 				3162BB03254C8FFF0072D8EF /* SceneDelegate.swift */,
+				319B6C7A254E4F1900A2B698 /* Spot.swift */,
 				3162BB05254C8FFF0072D8EF /* LoginViewController.swift */,
 				319B6C74254DFFDE00A2B698 /* SpotListViewController.swift */,
 				319B6C78254E080D00A2B698 /* SpotDetailViewController.swift */,
@@ -89,7 +92,7 @@
 				3162BB0A254C90040072D8EF /* Assets.xcassets */,
 				3162BB0C254C90040072D8EF /* LaunchScreen.storyboard */,
 				3162BB0F254C90040072D8EF /* Info.plist */,
-				31CE15E6254C92BC00386F62 /* GoogleService-Info.plist */,
+				319B6C7C254E5A2000A2B698 /* GoogleService-Info.plist */,
 			);
 			path = Snacktacular;
 			sourceTree = "<group>";
@@ -165,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3162BB0E254C90040072D8EF /* LaunchScreen.storyboard in Resources */,
-				31CE15E7254C92BC00386F62 /* GoogleService-Info.plist in Resources */,
+				319B6C7D254E5A2000A2B698 /* GoogleService-Info.plist in Resources */,
 				3162BB0B254C90040072D8EF /* Assets.xcassets in Resources */,
 				3162BB09254C8FFF0072D8EF /* Main.storyboard in Resources */,
 			);
@@ -242,6 +245,7 @@
 				3162BB02254C8FFF0072D8EF /* AppDelegate.swift in Sources */,
 				319B6C79254E080D00A2B698 /* SpotDetailViewController.swift in Sources */,
 				319B6C77254E022100A2B698 /* SpotTableViewCell.swift in Sources */,
+				319B6C7B254E4F1900A2B698 /* Spot.swift in Sources */,
 				3162BB04254C8FFF0072D8EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
