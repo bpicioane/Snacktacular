@@ -280,6 +280,11 @@
                                 <action selector="cancelButtonPressed:" destination="KVi-5Z-U8v" id="g11-k3-3ND"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Wxv-yr-hX9">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="KVi-5Z-U8v" id="CJ0-5H-p0m"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
